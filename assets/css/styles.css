@@ -317,10 +317,9 @@ nav.topnav{
 /*Hero Styles*/
 
 .hero {
-	position: relative;
 	justify-content: center;
 	text-align: left;
-	min-height: 100vh;
+	min-height: 90vh;
 	color: #fff;
 	background-color: #00000052;
 }
