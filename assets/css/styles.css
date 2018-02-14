@@ -220,11 +220,6 @@ header nav li {
   display: none;
 }
 
-.topnav a:hover {
-  background-color: #000000cf;;
-  color: black;
- display: none;
-}
 
 .active {
   background-color: #4CAF50;
@@ -264,8 +259,8 @@ nav.topnav{
 }
 
 .topnav a:hover {
-  background-color: #ccc;
-  color: black;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
  /* visibility: hidden;*/
 }
 
