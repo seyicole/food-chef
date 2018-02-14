@@ -396,9 +396,50 @@ nav.topnav{
 
 
 .down {
-    transform: rotate(45deg);
+     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+     display: inline-block;
+     position: relative;
+    -moz-animation: down 0.5s infinite linear;
+    -o-animation: down 0.5s infinite linear;
+    -webkit-animation: down 0.5s infinite linear;
+     animation: down 0.5s infinite linear;
 }
+
+
+ 
+
+@-webkit-keyframes down {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-moz-keyframes down {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-o-keyframes down {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-ms-keyframes down {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@keyframes down {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+
 
 /*Destinations Section*/
 
