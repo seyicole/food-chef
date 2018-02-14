@@ -87,7 +87,6 @@ section p {
 /*Header Styles*/
 
 header {
-	position: absolute;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -319,7 +318,7 @@ nav.topnav{
 .hero {
 	justify-content: center;
 	text-align: left;
-	min-height: 90vh;
+	min-height: 100vh;
 	color: #fff;
 	background-color: #00000052;
 }
