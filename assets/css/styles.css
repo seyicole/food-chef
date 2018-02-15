@@ -142,7 +142,7 @@ header nav li {
 		margin-bottom: 15px;
 	}*/
 	header {
-	position: absolute;
+/* 	position: absolute; */
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
