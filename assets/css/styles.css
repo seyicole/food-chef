@@ -343,6 +343,12 @@ nav.topnav{
 
 }
 
+@media screen and (min-width: 650px) {
+.topnav {
+	position: fixed;
+	}
+}
+
 /*Hero Styles*/
 
 .hero {
@@ -402,6 +408,7 @@ nav.topnav{
 @media (max-width: 800px) {
 	.hero {
 		min-height: 600px;
+		position: relative;
 	}
 
 	.hero h1 {
