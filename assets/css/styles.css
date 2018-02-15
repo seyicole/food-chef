@@ -202,7 +202,7 @@ header nav li {
   overflow: hidden;
   background-color: #000000cf;
   text-transform: lowercase;
- 
+  
   font-family: "Quicksand", sans-serif;
 	
 	padding-left: 150px;
@@ -220,6 +220,11 @@ header nav li {
   display: none;
 }
 
+/*.topnav a:hover {
+  background-color: #000000cf;
+  color: black;
+ display: none;
+}*/
 
 .active {
   background-color: #4CAF50;
@@ -281,6 +286,7 @@ nav.topnav{
   .topnav a.icon {
     float: right;
     display: block;
+    padding-right: 30px;
   }
   nav{
 	background-color: #000000b0;
@@ -294,20 +300,48 @@ nav.topnav{
     right: 0;
     top: 0;
     background-color: #000000cf;
+    
   }
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
+   
   }
 
   nav{
 	background-color: #000000b0;
 	}
 
+	/*.topnav a {
+    float: none;
+  }
+  .topnav .links a {
+    padding: 14px 0px;
+  }*/
+  .topnav .links {
+    max-height: 48px;
+    transition: max-height .5s ease-out;
+    animation-delay: 0s;
+  }
+
+
+  .topnav.responsive .links {
+    max-height: 500px;
+    transition: max-height .5s ease-in;
+    animation-delay: 0s;
+  }
+  .topnav a.icon {
+    display: block;
+  }
+  .topnav.responsive {
+  position: relative;
+  }
+  .topnav.responsive .icon {
+    display: block;
+  }
+
 }
-
-
 
 /*Hero Styles*/
 
