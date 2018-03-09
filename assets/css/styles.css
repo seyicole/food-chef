@@ -142,7 +142,7 @@ header nav li {
 		margin-bottom: 15px;
 	}*/
 	header {
-/* 	position: absolute; */
+	
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -160,37 +160,37 @@ header nav a {
   text-decoration: none;
   opacity: 0.75;
   color: #fff;
-  display: none;
+ 
 }
 
 header nav a:hover {
   opacity: 1;
-  display: none;
+  
 }
 
 @keyframes fadein {
 	100% {
 		opacity: 1;
-		display: none;
+		
 	}
 }
 
 header h2 {
 	font-family: "Quicksand", sans-serif;
 	padding-bottom: 10px;
-	display: none;
+	
 }
 
 header nav {
 	display: flex;
 	margin-right: -15px;
 	font-size: 12px;
-	display: none;
+	
 }
 
 header nav li {
 	margin: 0 15px;
-	display: none;
+	
 	}
 }
 
@@ -309,10 +309,10 @@ nav.topnav{
    
   }
 
-  nav{
+ /* nav{
 	background-color: #000000b0;
 	}
-
+*/
 	/*.topnav a {
     float: none;
   }
@@ -334,9 +334,7 @@ nav.topnav{
   .topnav a.icon {
     display: block;
   }
-  .topnav.responsive {
-  position: relative;
-  }
+  
   .topnav.responsive .icon {
     display: block;
   }
@@ -348,7 +346,6 @@ nav.topnav{
 	position: fixed;
 	}
 }
-
 /*Hero Styles*/
 
 .hero {
@@ -437,14 +434,17 @@ nav.topnav{
 
 
 .down {
-     transform: rotate(45deg);
+    transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+
      display: inline-block;
-     position: relative;
-    -moz-animation: down 0.5s infinite linear;
-    -o-animation: down 0.5s infinite linear;
-    -webkit-animation: down 0.5s infinite linear;
-     animation: down 0.5s infinite linear;
+  position: relative;
+  -moz-animation: down 0.5s infinite linear;
+  -o-animation: down 0.5s infinite linear;
+  -webkit-animation: down 0.5s infinite linear;
+  animation: down 0.5s infinite linear;
+  
+
 }
 
 
@@ -480,7 +480,6 @@ nav.topnav{
     70% { top: -0.3em; }
     100% { top: 0; }
 }
-
 
 /*Destinations Section*/
 
@@ -555,17 +554,28 @@ nav.topnav{
 
 .services .grid li.large {
 	/*flex-basis: 70%;*/
-	flex-basis: 20%;
+	flex-basis: 18%;
 }
 
 .services .grid li.small p {
 	text-align: left;
 }
 
+.services .grid-1 li.large{
+		display: flex;
+        flex-wrap: wrap;
+        flex-basis: 20%;
+	}
+
 @media (max-width: 1000px) {
 	.services .grid li.small,
 	.services .grid li.large {
 		flex-basis: 50%;
+	}
+
+	.services .grid-1 li.large{
+		/*display: flex;*/
+        flex-wrap: wrap;
 	}
 
 	/* li.large{
@@ -599,6 +609,11 @@ nav.topnav{
 		flex-basis: 100%;
 	}
 
+	.services .grid li.large {
+	background-image: url(../img/c1.png);
+    background-color: white;
+    height: 550px;
+	}
 	/* li.large{
 	background-image: url(../img/service2.jpg);
     height: 250px;
@@ -732,44 +747,10 @@ h3.team-title {
     }
 }
 
-/*.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}*/
 
-/*Packages Section*/
-
-/*.packages .grid li {
-	padding: 50px;
-	flex-basis: 50%;
-	text-align: center;
-}
-
-.packages .grid li i {
-	color: #8c9eff;
-}
-
-.packages .grid li h4 {
-	font-size: 30px;
-	margin: 25px 0;
-}
-
-@media (max-width: 800px) {
-	.packages .grid li {
-		flex-basis: 100%;
-		padding: 20px;
-	}
-}
-*/
 /*Testimonials Section*/
 
-/*.testimonials {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 100px 1px;
-}*/
+
 
 .testimonials .grid li {
 	height: 150px;
